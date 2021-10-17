@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<section class="auth-page">
+    <div class="grid">
+        <div class="auth-page_bg"></div>
+        <div class="auth-page_right-side">
+            <form class="auth-page_form">
+                <h2 class="auth-page_title">Login to your account</h2>
+                <p class="auth-page_welcome">Welcome back</p>
+                <label for="email" class="auth-page_label">Email</label>
+                <input id="email" type="email" class="auth-page_inp">
+                <label for="pass" class="auth-page_label">Password</label>
+                <input id="pass" type="password" class="auth-page_inp">
+                <div class="d-flex mt-17 mb-27">
+                    <div class="auth-page_remember">
+                        <label for="remember" class="remember"></label>
+                        <input id="remember" type="checkbox" class="auth-page_checkbox">
+                        <label for="remember" class="remember_text">Remember me</label>
+
+                    </div>
+                    <a href="#" class="auth-page_link">Forgot password?</a>
+                </div>
+                <button class="btn green_btn">Login now</button>
+                <button class="btn dark-blue_btn"><img class="google_icon" src="./images/h.png" alt="" class="">Or sign-in with google</button>
+            </form>
+            <span class="auth-page_registration">Dont have an account? <a class="auth-page_link" href="#">Join free today</a></span>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
